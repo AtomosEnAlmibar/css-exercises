@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -45,4 +49,21 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.logo-and-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 9px;
+}
+
+.notification-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin: 9px;
 }
